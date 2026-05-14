@@ -1,36 +1,107 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⚡ Folio Landing Page
 
-## Getting Started
+> **Day 12/30 of the "Building 1 AI-Generated Landing Page Every Day" Challenge**
 
-First, run the development server:
+![preview](public/opengraph-image.png)
+
+## 🚀 About
+
+Conceptual landing page for **Somey Amegnibo**, a **creative direction portfolio for public campaigns and visual identity work**, developed with **Next.js 16**, **TypeScript**, and **Tailwind CSS 4**. This project is the twelfth realization of an ambitious challenge: creating **1 complete and functional mockup per day using AI**.
+
+Somey Amegnibo is presented through an image-led portfolio experience for art direction, design, video, photography, and campaign storytelling. The goal is to instantly convey **taste**, **creative control**, **brand impact**, and **visual rhythm** through a sleek, responsive, high-end aesthetic.
+
+Live URL: [https://folio-landing.adrielzimbril.com](https://folio-landing.adrielzimbril.com)
+
+## 🎨 Design & Aesthetic Decisions
+
+For this project, the theme focuses on **creative direction, campaign imagery, personal portfolio design, and public brand work**.
+
+- **Modern Aesthetic:** The interface uses a minimal portfolio language with clean surfaces, restrained borders, image-led sections, and thoughtful micro-interactions.
+- **Performance First:** Every component is optimized for speed and efficiency, leveraging Next.js 16's latest features.
+- **Responsive Design:** Fully responsive layout that adapts seamlessly across all device sizes.
+- **Interactive Elements:** Smooth scrolling, animated pricing, dark mode, video controls, and bento cards create a polished user experience.
+- **Premium Identity:** Consistent typography, profile imagery, portfolio visuals, and metadata keep the creative identity clear throughout the entire experience.
+
+## 🧩 Key Sections
+
+- **🌟 Hero Section:** Personal introduction with public profile imagery, location details, portfolio links, and creative positioning.
+- **⚡ Portfolio Showcase:** Highlights public campaigns, product visuals, social media direction, and brand imagery through an image-led gallery.
+- **🎯 Interactive Demos:** Creative Xperience bento with full-width video, sound toggle, pass cards, and animated FCFA pricing.
+- **📊 Creative Profile:** About, services, availability, and project context for Somey Amegnibo's visual work.
+- **🏢 Modern Footer:** Comprehensive footer with links, contact routes, and portfolio information.
+
+## 🛠️ Tech Stack
+
+This mockup was built with cutting-edge technologies from the React ecosystem:
+
+- **[React 19](https://react.dev/)**
+- **TypeScript** for scalable component architecture and safer iteration.
+- **[Tailwind CSS v4](https://tailwindcss.com/)** for design tokens, utilities, and modern CSS support.
+- **Three.js & Postprocessing** for the ambient Pixel Blast visual layer.
+- **[Lenis](https://lenis.darkroom.engineering/)** for smoother scroll behavior.
+- **[Lucide React](https://lucide.dev/)** for clean, consistent iconography.
+- **Next Font** with **Hanken Grotesk**, **Instrument Sans**, and **Geist Mono** for optimized typography.
+
+## 🚀 Quick Start
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+# Install dependencies
+pnpm install
+
+# Run development server
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🌌 Let's meet in space (or on Earth) 🚀
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+I'm always happy to discuss new projects, collaborations, or simply exchange creative ideas. Here's how to contact me:
 
-## Learn More
+- **📧 Email**: [hello@adrielzimbril.com](mailto:hello@adrielzimbril.com)
+- **🌐 Website**: [https://www.adrielzimbril.com](https://www.adrielzimbril.com)
+- **🐦 Twitter**: [https://twitter.com/adrielzimbril](https://twitter.com/adrielzimbril)
+- **💼 LinkedIn**: [https://www.linkedin.com/in/adrielzimbrilcode](https://www.linkedin.com/in/adrielzimbrilcode)
+- **🐼 GitHub**: [https://github.com/adrielzimbril](https://github.com/adrielzimbril)
 
-To learn more about Next.js, take a look at the following resources:
+### 🐼 Fun Facts
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 🚀 Passionate about space exploration and technology
+- 🐼 Love pandas (and animals in general!)
+- 🎨 Creative at heart, whether in design or code
+- ☕ Addicted to coffee and complex technical challenges
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🌟 Join the Adventure
 
-## Deploy on Vercel
+If you like this project, feel free to:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- ⭐ Star the project
+- 🐞 Report bugs
+- ✨ Suggest improvements
+- 🚀 Share with other enthusiasts
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 💖 Support the Project
+
+If you find this project useful and would like to support its development, you can do so through these platforms:
+
+[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white)](https://go.adrielzimbril.com/gs)
+
+## 🌐 Hosting
+
+This project is 100% hosted on modern cloud infrastructure for maximum performance and reliability:
+
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com)
+
+## 📄 License
+
+This project is under the MIT license. Feel free to use it as a base for your own portfolio or project.
+
+---
+
+**Developed with ❤️ by Adriel Zimbril**
+_Product Designer & Fullstack Developer_
+🚀 Digital Universe Explorer | 🐼 Panda Friend | 🎨 Passionate Creator
+
+```
+
+```
