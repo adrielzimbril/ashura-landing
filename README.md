@@ -1,46 +1,49 @@
-# ⚡ Folio Landing Page
+# ⚡ Ashura — Branding & AI Agency Landing Page
 
-> **Day 12/30 of the "Building 1 AI-Generated Landing Page Every Day" Challenge**
+> **Day 3/30 of the "Building 1 AI-Generated Landing Page Every Day" Challenge**
 
 ![preview](public/opengraph-image.png)
 
 ## 🚀 About
 
-Conceptual landing page for **Somey Amegnibo**, a **creative direction portfolio for public campaigns and visual identity work**, developed with **Next.js 16**, **TypeScript**, and **Tailwind CSS 4**. This project is the twelfth realization of an ambitious challenge: creating **1 complete and functional mockup per day using AI**.
+Conceptual landing page for **Ashura**, a **branding and communication agency that uses AI as a strategic vector**, developed with **Next.js 16**, **TypeScript**, and **Tailwind CSS 4**. This project is the third realization of an ambitious challenge: creating **1 complete and functional mockup per day using AI**.
 
-Somey Amegnibo is presented through an image-led portfolio experience for art direction, design, video, photography, and campaign storytelling. The goal is to instantly convey **taste**, **creative control**, **brand impact**, and **visual rhythm** through a sleek, responsive, high-end aesthetic.
+Ashura is presented through a high-end, image-led agency experience covering brand strategy, AI creative direction, campaign systems, and digital identity. The goal is to instantly convey **strategic clarity**, **creative authority**, **AI-augmented production**, and **brand impact** through a sleek, responsive, dark aesthetic.
 
-Live URL: [https://folio-landing.adrielzimbril.com](https://folio-landing.adrielzimbril.com)
+Live URL: [https://ashura-landing.adrielzimbril.com](https://ashura-landing.adrielzimbril.com)
 
 ## 🎨 Design & Aesthetic Decisions
 
-For this project, the theme focuses on **creative direction, campaign imagery, personal portfolio design, and public brand work**.
+For this project, the theme focuses on **brand strategy, AI-assisted creative direction, campaign systems, and communication agency positioning**.
 
-- **Modern Aesthetic:** The interface uses a minimal portfolio language with clean surfaces, restrained borders, image-led sections, and thoughtful micro-interactions.
+- **Modern Aesthetic:** The interface uses a dark, minimal agency language with card-based sections, grayscale imagery that reveals color on hover, and purposeful micro-interactions.
 - **Performance First:** Every component is optimized for speed and efficiency, leveraging Next.js 16's latest features.
 - **Responsive Design:** Fully responsive layout that adapts seamlessly across all device sizes.
-- **Interactive Elements:** Smooth scrolling, animated pricing, dark mode, video controls, and bento cards create a polished user experience.
-- **Premium Identity:** Consistent typography, profile imagery, portfolio visuals, and metadata keep the creative identity clear throughout the entire experience.
+- **Interactive Elements:** Smooth scrolling, floating navbar, inner-image scale hover (layout-stable), grayscale-to-color transitions, and bento-style section cards create a polished user experience.
+- **Premium Identity:** Consistent typography with Hanken Grotesk, dark card surfaces, and a cohesive visual system keep the agency identity sharp throughout the entire experience.
 
 ## 🧩 Key Sections
 
-- **🌟 Hero Section:** Personal introduction with public profile imagery, location details, portfolio links, and creative positioning.
-- **⚡ Portfolio Showcase:** Highlights public campaigns, product visuals, social media direction, and brand imagery through an image-led gallery.
-- **🎯 Interactive Demos:** Creative Xperience bento with full-width video, sound toggle, pass cards, and animated FCFA pricing.
-- **📊 Creative Profile:** About, services, availability, and project context for Somey Amegnibo's visual work.
-- **🏢 Modern Footer:** Comprehensive footer with links, contact routes, and portfolio information.
+- **🌟 Hero Section:** Agency positioning with headline, value proposition, CTA buttons, and a trusted-brands ticker.
+- **⚡ Brand Territories:** Masonry gallery of visual systems and campaign work with grayscale-to-color hover reveal.
+- **🎯 Agency Profile:** Split-layout card with the agency's strategic approach, skill tags, and phased methodology.
+- **📊 Strategic Process:** Three-step method card — Diagnose, Design with AI, Deploy — with process step cards.
+- **🏢 Services:** Four core service offerings with icon cards, tags, and a featured visual.
+- **🌐 Modern Footer:** Comprehensive footer with links, contact routes, and agency information.
 
 ## 🛠️ Tech Stack
 
 This mockup was built with cutting-edge technologies from the React ecosystem:
 
+- **[Next.js 16](https://nextjs.org/)** with App Router and Turbopack
 - **[React 19](https://react.dev/)**
 - **TypeScript** for scalable component architecture and safer iteration.
 - **[Tailwind CSS v4](https://tailwindcss.com/)** for design tokens, utilities, and modern CSS support.
-- **Three.js & Postprocessing** for the ambient Pixel Blast visual layer.
+- **[Motion/React](https://motion.dev/)** for scroll-triggered animations and entrance transitions.
+- **Three.js & Postprocessing** for the ambient background visual layer.
 - **[Lenis](https://lenis.darkroom.engineering/)** for smoother scroll behavior.
 - **[Lucide React](https://lucide.dev/)** for clean, consistent iconography.
-- **Next Font** with **Hanken Grotesk**, **Instrument Sans**, and **Geist Mono** for optimized typography.
+- **Next Font** with **Hanken Grotesk** and **Geist Mono** for optimized typography.
 
 ## 🚀 Quick Start
 
@@ -101,7 +104,3 @@ This project is under the MIT license. Feel free to use it as a base for your ow
 **Developed with ❤️ by Adriel Zimbril**
 _Product Designer & Fullstack Developer_
 🚀 Digital Universe Explorer | 🐼 Panda Friend | 🎨 Passionate Creator
-
-```
-
-```
