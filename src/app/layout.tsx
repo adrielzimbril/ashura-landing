@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist_Mono, Inter, Manrope } from "next/font/google";
+import { Geist_Mono, Hanken_Grotesk, Inter } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({
@@ -8,10 +8,11 @@ const inter = Inter({
   display: "swap",
 });
 
-const display = Manrope({
+const display = Hanken_Grotesk({
   variable: "--font-display",
   subsets: ["latin"],
   display: "swap",
+  weight: ["300", "400", "500", "600", "700"],
 });
 
 const mono = Geist_Mono({

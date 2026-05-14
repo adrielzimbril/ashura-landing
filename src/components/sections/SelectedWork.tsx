@@ -20,11 +20,11 @@ export function SelectedWork() {
             className="mx-auto max-w-3xl text-center"
           >
             <h2 className="section-gradient-heading font-display text-3xl font-medium tracking-normal text-white md:text-4xl">
-              Territoires de Marque
+              Brand Territories
             </h2>
             <p className="mt-3 text-sm leading-7 text-neutral-300 md:text-base">
-              Des systemes visuels concus pour aligner strategie, imagination
-              artificielle et execution campagne.
+              Visual systems designed to align strategy, artificial intelligence,
+              and campaign execution.
             </p>
           </motion.div>
 
@@ -39,18 +39,21 @@ export function SelectedWork() {
                 transition={{ delay: index * 0.08, duration: 0.6 }}
                 className="portfolio-card group relative mb-6 block break-inside-avoid overflow-hidden rounded-lg bg-neutral-900/50 ring-1 ring-white/10 transition"
               >
-                <Image
-                  src={item.src}
-                  alt={item.alt}
-                  width={900}
-                  height={1100}
-                  unoptimized
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  className="h-auto w-full object-cover grayscale transition duration-700 group-hover:scale-105 group-hover:grayscale-[20%]"
-                />
+                {/* Image container — overflow hidden so scale stays clipped */}
+                <div className="overflow-hidden">
+                  <Image
+                    src={item.src}
+                    alt={item.alt}
+                    width={900}
+                    height={1100}
+                    unoptimized
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    className="h-auto w-full object-cover grayscale transition-all duration-700 group-hover:scale-110 group-hover:brightness-110 group-hover:grayscale-0"
+                  />
+                </div>
                 <div className="pointer-events-none absolute inset-x-3 bottom-3">
                   <div className="view-button flex w-full items-center justify-center gap-2 rounded-full bg-white/10 px-4 py-2 text-xs text-white opacity-0 ring-1 ring-white/20 backdrop-blur transition md:text-sm">
-                    Voir le territoire
+                    View territory
                     <ArrowUpRight className="h-4 w-4" />
                   </div>
                 </div>

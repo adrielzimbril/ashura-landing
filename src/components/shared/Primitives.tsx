@@ -54,7 +54,7 @@ export function PrimaryButton({
 }
 
 export function SecondaryButton({
-  children = "Voir les travaux",
+  children = "View our work",
   icon = <Play className="h-4 w-4" />,
 }: {
   children?: ReactNode;
@@ -71,6 +71,11 @@ export function SecondaryButton({
   );
 }
 
+/**
+ * FramedImage — overflow-hidden container with inner image that scales on
+ * parent group hover. The container dimensions stay fixed; only the image
+ * scales inside, so the layout never shifts.
+ */
 export function FramedImage({
   src,
   alt,
@@ -94,7 +99,7 @@ export function FramedImage({
         fill
         unoptimized
         sizes={sizes}
-        className="object-cover grayscale"
+        className="object-cover grayscale transition-all duration-700 group-hover:scale-110 group-hover:brightness-110 group-hover:grayscale-0"
       />
     </div>
   );

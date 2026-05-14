@@ -39,14 +39,13 @@ export function Services() {
               viewport={{ once: true }}
               transition={{ duration: 0.65 }}
             >
-              <SectionPill>Services Ashura</SectionPill>
+              <SectionPill>Ashura Services</SectionPill>
               <h2 className="mt-4 font-display text-4xl font-light tracking-normal text-white md:text-6xl">
                 Services
               </h2>
               <p className="mt-3 text-sm leading-7 text-neutral-300 md:text-base">
-                Une offre construite pour les marques qui veulent utiliser
-                l&apos;IA comme avantage de communication, pas comme simple
-                outil de production.
+                An offering built for brands that want to use AI as a
+                communication advantage, not just a production tool.
               </p>
               <div className="mt-5 flex flex-wrap gap-2">
                 {serviceTags.map((tag) => (
@@ -55,7 +54,7 @@ export function Services() {
               </div>
               <div className="mt-6 flex flex-col gap-3 sm:flex-row">
                 <PrimaryButton icon={<Phone className="h-5 w-5" />}>
-                  Demander un diagnostic
+                  Request a diagnostic
                 </PrimaryButton>
                 <SecondaryButton icon={<Play className="h-4 w-4" />} />
               </div>
@@ -66,11 +65,11 @@ export function Services() {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.65 }}
-              className="overflow-hidden rounded-xl bg-neutral-900/50 ring-1 ring-white/10"
+              className="group overflow-hidden rounded-xl bg-white/[0.03] ring-1 ring-white/10"
             >
               <FramedImage
                 src="/img/futuristic-representation-robotic-human-heart.jpg"
-                alt="Representation visuelle du lien entre strategie de marque et IA"
+                alt="Visual representation of the link between brand strategy and AI"
                 aspect="aspect-[16/10]"
                 rounded="rounded-xl"
               />
@@ -87,7 +86,7 @@ export function Services() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.05, duration: 0.48 }}
-                  className="relative overflow-hidden rounded-2xl bg-neutral-900/60 p-5 ring-1 ring-white/10 md:p-6"
+                  className="relative overflow-hidden rounded-2xl bg-white/[0.04] p-5 ring-1 ring-white/10 md:p-6"
                 >
                   <div className="flex items-start gap-3">
                     <span className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white/5 ring-1 ring-white/10">

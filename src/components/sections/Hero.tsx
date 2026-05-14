@@ -13,7 +13,7 @@ import { trustLogos } from "@/lib/data";
 
 export function Hero() {
   return (
-    <section id="top" className="relative pt-24">
+    <section id="top" className="relative pt-32">
       <SectionShell>
         <div className="pb-10 pt-10 md:pb-28 md:pt-16">
           <motion.div
@@ -23,17 +23,16 @@ export function Hero() {
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           >
             <div className="mx-auto mb-6 flex w-full items-center justify-center">
-              <SectionPill>Agence branding, communication & IA</SectionPill>
+              <SectionPill>Branding, Communication & AI Agency</SectionPill>
             </div>
 
             <div className="mx-auto max-w-4xl space-y-8 text-center">
               <h1 className="font-display text-5xl font-light leading-[0.95] tracking-normal text-white md:text-7xl lg:text-8xl">
-                Strategie de marque augmentee par l&apos;IA
+                Brand strategy augmented by AI
               </h1>
               <p className="mx-auto mt-5 max-w-2xl text-base leading-8 text-neutral-400 md:text-lg">
-                Ashura aide les marques ambitieuses a clarifier leur
-                positionnement, creer des campagnes memorables et utiliser
-                l&apos;IA comme vecteur strategique.
+                Ashura helps ambitious brands clarify their positioning, create
+                memorable campaigns, and use AI as a strategic vector.
               </p>
 
               <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
@@ -42,9 +41,9 @@ export function Hero() {
                     <ArrowRight className="h-6 w-6 transition-transform duration-500 group-hover:translate-x-1" />
                   }
                 >
-                  Demarrer un brief
+                  Start a brief
                 </PrimaryButton>
-                <SecondaryButton />
+                <SecondaryButton>View our work</SecondaryButton>
               </div>
             </div>
           </motion.div>

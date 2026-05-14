@@ -21,9 +21,9 @@ const skills = [
 ];
 
 const experience = [
-  ["Strategie", "Positionnement & message", "Phase 01"],
-  ["Creation", "Direction IA & identite", "Phase 02"],
-  ["Activation", "Campagnes & mesure", "Phase 03"],
+  ["Strategy", "Positioning & message", "Phase 01"],
+  ["Creation", "AI direction & identity", "Phase 02"],
+  ["Activation", "Campaigns & measurement", "Phase 03"],
 ];
 
 export function Profile() {
@@ -38,19 +38,21 @@ export function Profile() {
           transition={{ duration: 0.7 }}
           className="grid grid-cols-1 items-start gap-8 pb-24 md:grid-cols-2"
         >
-          <FramedImage
-            src="/img/portrait-futuristic-female-humanoid-with-advanced-technology (1).jpg"
-            alt="Portrait conceptuel representant la strategie IA Ashura"
-          />
+          {/* Wrap in group so FramedImage hover works */}
+          <div className="group">
+            <FramedImage
+              src="/img/portrait-futuristic-female-humanoid-with-advanced-technology (1).jpg"
+              alt="Conceptual portrait representing Ashura AI strategy"
+            />
+          </div>
           <div>
             <h2 className="font-display text-4xl font-light tracking-normal text-white md:text-6xl">
-              Une agence pensee pour l&apos;apres-brief
+              An agency built for the post-brief era
             </h2>
             <p className="mt-4 text-sm leading-7 text-neutral-300 md:text-base">
-              Ashura combine planning strategique, culture de marque et
-              production assistee par IA. L&apos;objectif: transformer une
-              intuition business en systeme de communication clair, distinctif
-              et activable.
+              Ashura combines strategic planning, brand culture, and
+              AI-assisted production. The goal: turn a business intuition into a
+              clear, distinctive, and actionable communication system.
             </p>
             <div className="mt-5 flex flex-wrap gap-2">
               {skills.map((skill) => (
@@ -71,7 +73,7 @@ export function Profile() {
               ))}
             </div>
             <div className="mt-8 flex items-center gap-3 text-sm text-neutral-300">
-              <span>Activations recentes</span>
+              <span>Recent activations</span>
               <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-white/5 ring-1 ring-white/10">
                 <ArrowDown className="h-3.5 w-3.5 text-neutral-200" />
               </span>
@@ -89,7 +91,7 @@ export function Profile() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.06, duration: 0.5 }}
-              className="group relative overflow-hidden rounded-lg bg-neutral-900/70 ring-1 ring-white/10 transition hover:ring-white/20"
+              className="group relative overflow-hidden rounded-lg bg-neutral-900/40 ring-1 ring-white/10 transition hover:ring-white/20"
             >
               <FramedImage
                 src={item.src}
@@ -98,7 +100,7 @@ export function Profile() {
               />
               <div className="pointer-events-none absolute inset-x-3 bottom-3">
                 <div className="flex w-full items-center justify-center gap-2 rounded-full bg-white/10 px-4 py-2 text-xs text-white ring-1 ring-white/20 backdrop-blur md:text-sm">
-                  Voir l&apos;activation
+                  View activation
                   <ArrowUpRight className="h-4 w-4" />
                 </div>
               </div>
