@@ -22,11 +22,11 @@ const mono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://ashura-landing.adrielzimbril.com"),
-  title: "Ashura | Brand Identity Studio for Product Visuals",
+  title: "Novalume | Identity, Product & Motion",
   description:
-    "Day 13/30 of the AI-Generated Landing Page Challenge. Ashura is a conceptual brand identity studio that turns strategy, product visuals, and motion systems into high-converting digital launches.",
+    "Day 13/30 of the AI-Generated Landing Page Challenge. Novalume is a conceptual brand identity studio that turns strategy, product visuals, and motion systems into high-converting digital launches.",
   keywords: [
-    "Ashura",
+    "Novalume",
     "brand identity studio",
     "AI brand design",
     "product visuals",
@@ -41,17 +41,17 @@ export const metadata: Metadata = {
     "AI challenge",
   ],
   openGraph: {
-    title: "Ashura | Brand Identity Studio for Product Visuals",
+    title: "Novalume | Identity, Product & Motion",
     description:
       "A conceptual brand identity studio landing page for Day 13/30 of the AI-Generated Landing Page Challenge.",
     url: "https://ashura-landing.adrielzimbril.com",
-    siteName: "Ashura",
+    siteName: "Novalume",
     images: [
       {
         url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "Ashura landing page preview",
+        alt: "Novalume landing page preview",
       },
     ],
     locale: "en_US",
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ashura | Brand Identity Studio for Product Visuals",
+    title: "Novalume | Identity, Product & Motion",
     description:
       "A conceptual brand identity studio landing page for Day 13/30 of the AI-Generated Landing Page Challenge.",
     images: ["/opengraph-image.png"],
