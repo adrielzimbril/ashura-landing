@@ -102,11 +102,9 @@ a {
 }
 
 .view-button {
-  transform: translateY(20px);
-}
-
-.portfolio-card:hover {
-  transform: translateY(-8px) rotateX(5deg) rotateY(2deg);
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .portfolio-card:hover .view-button {

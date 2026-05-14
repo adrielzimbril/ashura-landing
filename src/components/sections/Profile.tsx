@@ -36,7 +36,7 @@ export function Profile() {
           whileInView="visible"
           viewport={{ once: true, margin: "-120px" }}
           transition={{ duration: 0.7 }}
-          className="grid grid-cols-1 items-start gap-8 pb-24 md:grid-cols-2"
+          className="grid grid-cols-1 items-start gap-8 rounded-2xl bg-neutral-900/40 p-6 ring-1 ring-white/8 backdrop-blur-sm md:grid-cols-2 md:p-8 mb-8"
         >
           {/* Wrap in group so FramedImage hover works */}
           <div className="group">
@@ -49,7 +49,7 @@ export function Profile() {
             <h2 className="font-display text-4xl font-light tracking-normal text-white md:text-6xl">
               An agency built for the post-brief era
             </h2>
-            <p className="mt-4 text-sm leading-7 text-neutral-300 md:text-base">
+            <p className="mt-4 text-sm leading-7 text-neutral-400 md:text-base">
               Ashura combines strategic planning, brand culture, and
               AI-assisted production. The goal: turn a business intuition into a
               clear, distinctive, and actionable communication system.
@@ -81,7 +81,7 @@ export function Profile() {
           </div>
         </motion.div>
 
-        <div className="h-px bg-white/10" />
+        <div className="mt-8 h-px bg-white/10" />
         <div className="mt-8 grid grid-cols-1 gap-6 pb-24 sm:grid-cols-2 lg:grid-cols-4">
           {recentProjects.map((item, index) => (
             <motion.a
@@ -91,7 +91,7 @@ export function Profile() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.06, duration: 0.5 }}
-              className="group relative overflow-hidden rounded-lg bg-neutral-900/40 ring-1 ring-white/10 transition hover:ring-white/20"
+              className="group relative overflow-hidden rounded-xl ring-1 ring-white/10 transition hover:ring-white/20"
             >
               <FramedImage
                 src={item.src}
@@ -99,7 +99,7 @@ export function Profile() {
                 aspect="aspect-[16/11]"
               />
               <div className="pointer-events-none absolute inset-x-3 bottom-3">
-                <div className="flex w-full items-center justify-center gap-2 rounded-full bg-white/10 px-4 py-2 text-xs text-white ring-1 ring-white/20 backdrop-blur md:text-sm">
+                <div className="flex w-full items-center justify-center gap-2 rounded-full bg-black/50 px-4 py-2 text-xs text-white opacity-0 ring-1 ring-white/20 backdrop-blur transition group-hover:opacity-100 md:text-sm">
                   View activation
                   <ArrowUpRight className="h-4 w-4" />
                 </div>

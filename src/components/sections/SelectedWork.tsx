@@ -22,7 +22,7 @@ export function SelectedWork() {
             <h2 className="section-gradient-heading font-display text-3xl font-medium tracking-normal text-white md:text-4xl">
               Brand Territories
             </h2>
-            <p className="mt-3 text-sm leading-7 text-neutral-300 md:text-base">
+            <p className="mt-3 text-sm leading-7 text-neutral-400 md:text-base">
               Visual systems designed to align strategy, artificial intelligence,
               and campaign execution.
             </p>
@@ -37,10 +37,10 @@ export function SelectedWork() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-80px" }}
                 transition={{ delay: index * 0.08, duration: 0.6 }}
-                className="portfolio-card group relative mb-6 block break-inside-avoid overflow-hidden rounded-lg bg-neutral-900/50 ring-1 ring-white/10 transition"
+                className="group relative mb-6 block break-inside-avoid rounded-xl bg-neutral-900/60 ring-1 ring-white/10 transition hover:ring-white/20"
               >
                 {/* Image container — overflow hidden so scale stays clipped */}
-                <div className="overflow-hidden">
+                <div className="overflow-hidden rounded-xl">
                   <Image
                     src={item.src}
                     alt={item.alt}
@@ -48,11 +48,11 @@ export function SelectedWork() {
                     height={1100}
                     unoptimized
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    className="h-auto w-full object-cover grayscale transition-all duration-700 group-hover:scale-110 group-hover:brightness-110 group-hover:grayscale-0"
+                    className="h-auto w-full object-cover grayscale transition-all duration-700 group-hover:scale-110 group-hover:brightness-125 group-hover:grayscale-0"
                   />
                 </div>
                 <div className="pointer-events-none absolute inset-x-3 bottom-3">
-                  <div className="view-button flex w-full items-center justify-center gap-2 rounded-full bg-white/10 px-4 py-2 text-xs text-white opacity-0 ring-1 ring-white/20 backdrop-blur transition md:text-sm">
+                  <div className="view-button flex w-full items-center justify-center gap-2 rounded-full bg-black/50 px-4 py-2 text-xs text-white opacity-0 ring-1 ring-white/20 backdrop-blur transition md:text-sm">
                     View territory
                     <ArrowUpRight className="h-4 w-4" />
                   </div>

@@ -38,17 +38,12 @@ export function PrimaryButton({
   return (
     <a
       href="#contact"
-      className="group relative inline-block rounded-xl bg-gray-800 p-px font-semibold leading-6 text-white shadow-2xl shadow-zinc-900 transition-transform duration-300 ease-in-out hover:scale-105 active:scale-95"
+      className="group relative inline-flex items-center gap-2 overflow-hidden rounded-xl bg-white px-5 py-2.5 text-sm font-semibold text-neutral-950 shadow-lg shadow-black/30 transition-all duration-300 hover:bg-neutral-100 hover:scale-[1.03] active:scale-95"
     >
-      <span className="absolute inset-0 rounded-xl bg-gradient-to-r from-teal-400 via-blue-500 to-purple-500 p-[2px] opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
-      <span className="relative z-10 block rounded-xl bg-gray-950 px-5 py-2.5 text-sm">
-        <span className="relative z-10 flex items-center gap-2">
-          <span className="transition-all duration-500 group-hover:translate-x-0.5">
-            {children}
-          </span>
-          {icon}
-        </span>
+      <span className="transition-all duration-300 group-hover:translate-x-0.5">
+        {children}
       </span>
+      {icon}
     </a>
   );
 }
@@ -63,7 +58,7 @@ export function SecondaryButton({
   return (
     <a
       href="#work"
-      className="inline-flex items-center gap-2 rounded-xl bg-white/5 px-5 py-2.5 text-sm font-medium text-white ring-1 ring-white/15 backdrop-blur transition hover:bg-white/10"
+      className="inline-flex items-center gap-2 rounded-xl border border-white/15 bg-white/8 px-5 py-2.5 text-sm font-medium text-white backdrop-blur transition-all duration-300 hover:bg-white/15 hover:border-white/25"
     >
       {children}
       {icon}
@@ -99,7 +94,7 @@ export function FramedImage({
         fill
         unoptimized
         sizes={sizes}
-        className="object-cover grayscale transition-all duration-700 group-hover:scale-110 group-hover:brightness-110 group-hover:grayscale-0"
+        className="object-cover grayscale transition-all duration-700 group-hover:scale-110 group-hover:brightness-125 group-hover:grayscale-0"
       />
     </div>
   );

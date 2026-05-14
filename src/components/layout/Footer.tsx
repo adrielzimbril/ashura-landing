@@ -13,9 +13,8 @@ export function Footer() {
           <div className="col-span-2 md:col-span-4 lg:col-span-2">
             <Logo />
             <p className="mt-5 mb-6 max-w-xs text-sm leading-relaxed text-neutral-400">
-              Ashura construit des plateformes de marque, des campagnes et des
-              systemes de communication ou l&apos;IA devient un vecteur
-              strategique.
+              Ashura builds brand platforms, campaigns, and communication
+              systems where AI becomes a strategic vector.
             </p>
             <div className="flex items-center gap-4 text-neutral-400">
               {[
