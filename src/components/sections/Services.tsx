@@ -32,7 +32,7 @@ export function Services() {
     <section id="services" className="relative pt-24">
       <SectionShell>
         <div className="pb-24">
-          <div className="grid grid-cols-1 items-start gap-8 md:grid-cols-2">
+          <div className="grid grid-cols-1 items-start gap-8 rounded-2xl bg-neutral-900/80 p-6 pb-6 ring-1 ring-white/8 backdrop-blur-sm md:grid-cols-2 md:p-8">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -76,7 +76,8 @@ export function Services() {
             </motion.div>
           </div>
 
-          <div className="mt-8 grid grid-cols-1 gap-4 sm:gap-6 md:grid-cols-2">
+          <div className="mt-8 rounded-2xl bg-neutral-900/80 p-6 pb-6 ring-1 ring-white/8 backdrop-blur-sm md:p-8">
+           <div className="grid grid-cols-1 gap-4 sm:gap-6 md:grid-cols-2 rounded-2xl">
             {services.map((service, index) => {
               const Icon = icons[service.icon as keyof typeof icons];
               return (
@@ -113,7 +114,7 @@ export function Services() {
                 {tag}
               </Pill>
             ))}
-          </div>
+          </div></div>
         </div>
       </SectionShell>
     </section>

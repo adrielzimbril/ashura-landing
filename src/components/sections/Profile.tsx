@@ -36,7 +36,7 @@ export function Profile() {
           whileInView="visible"
           viewport={{ once: true, margin: "-120px" }}
           transition={{ duration: 0.7 }}
-          className="grid grid-cols-1 items-start gap-8 rounded-2xl bg-neutral-900/40 p-6 ring-1 ring-white/8 backdrop-blur-sm md:grid-cols-2 md:p-8 mb-8"
+          className="grid grid-cols-1 items-start gap-8 rounded-2xl bg-neutral-900/80 p-6 ring-1 ring-white/8 backdrop-blur-sm md:grid-cols-2 md:p-8 mb-8"
         >
           {/* Wrap in group so FramedImage hover works */}
           <div className="group">
