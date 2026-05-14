@@ -1,12 +1,12 @@
 # ⚡ Ashura — Branding & AI Agency Landing Page
 
-> **Day 3/30 of the "Building 1 AI-Generated Landing Page Every Day" Challenge**
+> **Day 13/30 of the "Building 1 AI-Generated Landing Page Every Day" Challenge**
 
 ![preview](public/opengraph-image.png)
 
 ## 🚀 About
 
-Conceptual landing page for **Ashura**, a **branding and communication agency that uses AI as a strategic vector**, developed with **Next.js 16**, **TypeScript**, and **Tailwind CSS 4**. This project is the third realization of an ambitious challenge: creating **1 complete and functional mockup per day using AI**.
+Conceptual landing page for **Ashura**, a **branding and communication agency that uses AI as a strategic vector**, developed with **Next.js 16**, **TypeScript**, and **Tailwind CSS 4**. This project is the thirteenth realization of an ambitious challenge: creating **1 complete and functional mockup per day using AI**.
 
 Ashura is presented through a high-end, image-led agency experience covering brand strategy, AI creative direction, campaign systems, and digital identity. The goal is to instantly convey **strategic clarity**, **creative authority**, **AI-augmented production**, and **brand impact** through a sleek, responsive, dark aesthetic.
 
