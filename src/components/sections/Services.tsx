@@ -18,7 +18,7 @@ import {
   SectionPill,
   SectionShell,
 } from "@/components/shared/Primitives";
-import { imageBase, services, serviceTags, tagCloud } from "@/lib/data";
+import { services, serviceTags, tagCloud } from "@/lib/data";
 
 const icons = {
   sparkles: Sparkles,
@@ -39,13 +39,14 @@ export function Services() {
               viewport={{ once: true }}
               transition={{ duration: 0.65 }}
             >
-              <SectionPill>Design services</SectionPill>
+              <SectionPill>Services Ashura</SectionPill>
               <h2 className="mt-4 font-display text-4xl font-light tracking-normal text-white md:text-6xl">
                 Services
               </h2>
               <p className="mt-3 text-sm leading-7 text-neutral-300 md:text-base">
-                Helping teams stand out with refined identity, product visuals,
-                and content updates that captivate and convert.
+                Une offre construite pour les marques qui veulent utiliser
+                l&apos;IA comme avantage de communication, pas comme simple
+                outil de production.
               </p>
               <div className="mt-5 flex flex-wrap gap-2">
                 {serviceTags.map((tag) => (
@@ -54,7 +55,7 @@ export function Services() {
               </div>
               <div className="mt-6 flex flex-col gap-3 sm:flex-row">
                 <PrimaryButton icon={<Phone className="h-5 w-5" />}>
-                  Book a Free Call
+                  Demander un diagnostic
                 </PrimaryButton>
                 <SecondaryButton icon={<Play className="h-4 w-4" />} />
               </div>
@@ -68,8 +69,8 @@ export function Services() {
               className="overflow-hidden rounded-xl bg-neutral-900/50 ring-1 ring-white/10"
             >
               <FramedImage
-                src={`${imageBase}/4e62d3a0-57fa-4882-a644-34db751f6e28_1600w.jpg`}
-                alt="Minimal product bottles still life"
+                src="/img/futuristic-representation-robotic-human-heart.jpg"
+                alt="Representation visuelle du lien entre strategie de marque et IA"
                 aspect="aspect-[16/10]"
                 rounded="rounded-xl"
               />

@@ -13,8 +13,9 @@ export function Footer() {
           <div className="col-span-2 md:col-span-4 lg:col-span-2">
             <Logo />
             <p className="mt-5 mb-6 max-w-xs text-sm leading-relaxed text-neutral-400">
-              Crafting distinctive brand identities and digital product visuals
-              that inspire and convert. Strategy-first design for modern teams.
+              Ashura construit des plateformes de marque, des campagnes et des
+              systemes de communication ou l&apos;IA devient un vecteur
+              strategique.
             </p>
             <div className="flex items-center gap-4 text-neutral-400">
               {[
@@ -57,11 +58,11 @@ export function Footer() {
               {title === "Connect" ? (
                 <div className="mt-6">
                   <a
-                    href="mailto:hello@novalume.studio"
+                    href="mailto:hello@ashura.studio"
                     className="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1.5 text-xs font-medium text-white shadow-sm ring-1 ring-white/15 transition hover:bg-white/15"
                   >
                     <Mail className="h-3.5 w-3.5" />
-                    hello@novalume.studio
+                    hello@ashura.studio
                   </a>
                 </div>
               ) : null}
@@ -81,7 +82,7 @@ export function Footer() {
           </div>
 
           <p className="text-sm text-neutral-400">
-            Copyright 2026 Novalume Studio. All rights reserved.
+            Copyright 2026 Ashura Studio. All rights reserved.
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-6">

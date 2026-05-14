@@ -1,3 +1,4 @@
+import { BackgroundScene } from "@/components/background/BackgroundScene";
 import { Footer } from "@/components/layout/Footer";
 import { Navbar } from "@/components/layout/Navbar";
 import { Hero } from "@/components/sections/Hero";
@@ -14,11 +15,14 @@ export default function Home() {
       <Navbar />
       <main className="relative min-h-screen overflow-hidden bg-neutral-950 text-neutral-200">
         <div className="aura-page-bg" aria-hidden="true" />
-        <Hero />
-        <SelectedWork />
-        <Profile />
-        <Process />
-        <Services />
+        <BackgroundScene />
+        <div className="relative z-10">
+          <Hero />
+          <SelectedWork />
+          <Profile />
+          <Process />
+          <Services />
+        </div>
       </main>
       <Footer />
     </>

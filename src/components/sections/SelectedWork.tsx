@@ -20,11 +20,11 @@ export function SelectedWork() {
             className="mx-auto max-w-3xl text-center"
           >
             <h2 className="section-gradient-heading font-display text-3xl font-medium tracking-normal text-white md:text-4xl">
-              Selected Work
+              Territoires de Marque
             </h2>
             <p className="mt-3 text-sm leading-7 text-neutral-300 md:text-base">
-              Strategy-led direction and tasteful execution across identity,
-              web, and motion.
+              Des systemes visuels concus pour aligner strategie, imagination
+              artificielle et execution campagne.
             </p>
           </motion.div>
 
@@ -50,7 +50,7 @@ export function SelectedWork() {
                 />
                 <div className="pointer-events-none absolute inset-x-3 bottom-3">
                   <div className="view-button flex w-full items-center justify-center gap-2 rounded-full bg-white/10 px-4 py-2 text-xs text-white opacity-0 ring-1 ring-white/20 backdrop-blur transition md:text-sm">
-                    View Casestudy
+                    Voir le territoire
                     <ArrowUpRight className="h-4 w-4" />
                   </div>
                 </div>

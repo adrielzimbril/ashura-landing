@@ -54,7 +54,7 @@ export function PrimaryButton({
 }
 
 export function SecondaryButton({
-  children = "See Projects",
+  children = "Voir les travaux",
   icon = <Play className="h-4 w-4" />,
 }: {
   children?: ReactNode;

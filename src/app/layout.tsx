@@ -22,17 +22,18 @@ const mono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://ashura-landing.adrielzimbril.com"),
-  title: "Novalume | Identity, Product & Motion",
+  title: "Ashura | Agence de Branding et Communication IA",
   description:
-    "Day 13/30 of the AI-Generated Landing Page Challenge. Novalume is a conceptual brand identity studio that turns strategy, product visuals, and motion systems into high-converting digital launches.",
+    "Day 13/30 of the AI-Generated Landing Page Challenge. Ashura is a conceptual branding and communication agency that uses AI as a strategic vector for sharper brand platforms and campaign systems.",
   keywords: [
-    "Novalume",
-    "brand identity studio",
-    "AI brand design",
-    "product visuals",
-    "motion design",
-    "agency landing page",
-    "creative studio",
+    "Ashura",
+    "branding agency",
+    "communication agency",
+    "AI branding",
+    "brand strategy",
+    "AI creative direction",
+    "campaign systems",
+    "strategic communication",
     "Next.js",
     "React",
     "motion/react",
@@ -41,17 +42,17 @@ export const metadata: Metadata = {
     "AI challenge",
   ],
   openGraph: {
-    title: "Novalume | Identity, Product & Motion",
+    title: "Ashura | Agence de Branding et Communication IA",
     description:
-      "A conceptual brand identity studio landing page for Day 13/30 of the AI-Generated Landing Page Challenge.",
+      "A conceptual branding and communication agency landing page for Day 13/30 of the AI-Generated Landing Page Challenge.",
     url: "https://ashura-landing.adrielzimbril.com",
-    siteName: "Novalume",
+    siteName: "Ashura",
     images: [
       {
         url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "Novalume landing page preview",
+        alt: "Ashura landing page preview",
       },
     ],
     locale: "en_US",
@@ -59,9 +60,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Novalume | Identity, Product & Motion",
+    title: "Ashura | Agence de Branding et Communication IA",
     description:
-      "A conceptual brand identity studio landing page for Day 13/30 of the AI-Generated Landing Page Challenge.",
+      "A conceptual branding and communication agency landing page for Day 13/30 of the AI-Generated Landing Page Challenge.",
     images: ["/opengraph-image.png"],
   },
   icons: {

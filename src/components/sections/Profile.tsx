@@ -8,22 +8,22 @@ import {
   Pill,
   SectionShell,
 } from "@/components/shared/Primitives";
-import { imageBase, recentProjects } from "@/lib/data";
+import { recentProjects } from "@/lib/data";
 
 const skills = [
-  "UI/UX Design",
-  "React Development",
-  "Design Systems",
-  "Prototyping",
-  "Web Development",
-  "TypeScript",
-  "Figma",
+  "Brand Strategy",
+  "Communication",
+  "Creative AI",
+  "Campaign Design",
+  "Content Systems",
+  "Market Positioning",
+  "Launch Ops",
 ];
 
 const experience = [
-  ["Senior Designer", "TechFlow Inc", "Currently"],
-  ["Product Designer", "PixelCraft Studio", "2022-24"],
-  ["UI Designer", "StartupLab", "2020-22"],
+  ["Strategie", "Positionnement & message", "Phase 01"],
+  ["Creation", "Direction IA & identite", "Phase 02"],
+  ["Activation", "Campagnes & mesure", "Phase 03"],
 ];
 
 export function Profile() {
@@ -39,18 +39,18 @@ export function Profile() {
           className="grid grid-cols-1 items-start gap-8 pb-24 md:grid-cols-2"
         >
           <FramedImage
-            src={`${imageBase}/b59bad79-703a-4c05-8ed2-fafcc49a7b51_800w.jpg`}
-            alt="Professional portrait"
+            src="/img/portrait-futuristic-female-humanoid-with-advanced-technology (1).jpg"
+            alt="Portrait conceptuel representant la strategie IA Ashura"
           />
           <div>
             <h2 className="font-display text-4xl font-light tracking-normal text-white md:text-6xl">
-              Meet Alex
+              Une agence pensee pour l&apos;apres-brief
             </h2>
             <p className="mt-4 text-sm leading-7 text-neutral-300 md:text-base">
-              I&apos;m Alex, a creative Digital Product Designer and Front-end
-              Developer based in San Francisco. I specialize in creating
-              seamless user experiences and innovative digital solutions that
-              bridge design and technology to drive business growth.
+              Ashura combine planning strategique, culture de marque et
+              production assistee par IA. L&apos;objectif: transformer une
+              intuition business en systeme de communication clair, distinctif
+              et activable.
             </p>
             <div className="mt-5 flex flex-wrap gap-2">
               {skills.map((skill) => (
@@ -71,7 +71,7 @@ export function Profile() {
               ))}
             </div>
             <div className="mt-8 flex items-center gap-3 text-sm text-neutral-300">
-              <span>Recent Projects</span>
+              <span>Activations recentes</span>
               <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-white/5 ring-1 ring-white/10">
                 <ArrowDown className="h-3.5 w-3.5 text-neutral-200" />
               </span>
@@ -98,7 +98,7 @@ export function Profile() {
               />
               <div className="pointer-events-none absolute inset-x-3 bottom-3">
                 <div className="flex w-full items-center justify-center gap-2 rounded-full bg-white/10 px-4 py-2 text-xs text-white ring-1 ring-white/20 backdrop-blur md:text-sm">
-                  View Project
+                  Voir l&apos;activation
                   <ArrowUpRight className="h-4 w-4" />
                 </div>
               </div>

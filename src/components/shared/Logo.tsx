@@ -1,25 +1,16 @@
-import Image from "next/image";
-import { logoSrc } from "@/lib/data";
-
-export function Logo({ inverted = true }: { inverted?: boolean }) {
+export function Logo() {
   return (
     <a
       href="#top"
-      className="inline-flex h-[26px] w-[70px] items-center justify-center"
-      aria-label="Novalume home"
+      className="inline-flex items-center gap-2"
+      aria-label="Ashura home"
     >
-      <Image
-        src={logoSrc}
-        alt="Novalume"
-        width={70}
-        height={26}
-        unoptimized
-        className={
-          inverted
-            ? "h-[26px] w-[70px] object-contain invert"
-            : "h-[26px] w-[70px] object-contain"
-        }
-      />
+      <span className="grid h-7 w-7 place-items-center rounded-full bg-white text-[11px] font-semibold text-neutral-950">
+        A
+      </span>
+      <span className="text-sm font-semibold uppercase tracking-[0.22em] text-white">
+        Ashura
+      </span>
     </a>
   );
 }

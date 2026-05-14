@@ -15,7 +15,7 @@ import {
   SectionPill,
   SectionShell,
 } from "@/components/shared/Primitives";
-import { imageBase, processSteps } from "@/lib/data";
+import { processSteps } from "@/lib/data";
 
 const icons = {
   lightbulb: Lightbulb,
@@ -35,22 +35,22 @@ export function Process() {
           className="grid grid-cols-1 items-start gap-8 rounded-2xl bg-neutral-900/50 p-6 pb-6 ring-1 ring-white/10 md:grid-cols-2 md:p-8"
         >
           <FramedImage
-            src={`${imageBase}/9ab83c55-bb01-43d7-b04c-23f9c4a252e4_800w.jpg`}
-            alt="Design process sketching on paper"
+            src="/img/portrait-person-with-visual-metaphor-memory.jpg"
+            alt="Metaphore visuelle du processus strategique Ashura"
             aspect="aspect-[4/5]"
           />
           <div>
-            <SectionPill>Design process</SectionPill>
+            <SectionPill>Process strategique</SectionPill>
             <h2 className="mt-4 font-display text-4xl font-light tracking-normal text-white md:text-6xl">
-              Process
+              Methode
             </h2>
             <p className="mt-3 text-sm leading-7 text-neutral-300 md:text-base">
-              Crafting bold visuals that inspire and elevate brands through a
-              thoughtful, streamlined process.
+              Une progression courte et exigeante pour passer d&apos;un enjeu de
+              communication a un systeme de marque active par l&apos;IA.
             </p>
             <div className="mt-6 flex flex-col gap-3 sm:flex-row">
               <PrimaryButton icon={<Phone className="h-5 w-5" />}>
-                Book a Free Call
+                Planifier un audit
               </PrimaryButton>
               <SecondaryButton icon={<Play className="h-4 w-4" />} />
             </div>

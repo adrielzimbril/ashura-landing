@@ -23,16 +23,17 @@ export function Hero() {
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           >
             <div className="mx-auto mb-6 flex w-full items-center justify-center">
-              <SectionPill>Crafting Distinctive Digital Identities</SectionPill>
+              <SectionPill>Agence branding, communication & IA</SectionPill>
             </div>
 
             <div className="mx-auto max-w-4xl space-y-8 text-center">
               <h1 className="font-display text-5xl font-light leading-[0.95] tracking-normal text-white md:text-7xl lg:text-8xl">
-                Branding that truly converts
+                Strategie de marque augmentee par l&apos;IA
               </h1>
               <p className="mx-auto mt-5 max-w-2xl text-base leading-8 text-neutral-400 md:text-lg">
-                Elevate your presence with identity systems and product visuals.
-                We design for clarity, momentum, and measurable outcomes.
+                Ashura aide les marques ambitieuses a clarifier leur
+                positionnement, creer des campagnes memorables et utiliser
+                l&apos;IA comme vecteur strategique.
               </p>
 
               <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
@@ -41,7 +42,7 @@ export function Hero() {
                     <ArrowRight className="h-6 w-6 transition-transform duration-500 group-hover:translate-x-1" />
                   }
                 >
-                  Get Started Now
+                  Demarrer un brief
                 </PrimaryButton>
                 <SecondaryButton />
               </div>
